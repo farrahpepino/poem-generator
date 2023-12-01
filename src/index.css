@@ -46,7 +46,7 @@ button:hover {
 }
 
 footer {
-  color: hsla(0, 0%, 20%, 0.4);
+  color: hsla(0, 0%, 1%, 0.9);
   position: absolute;
   text-align: start;
   left: 30px;
