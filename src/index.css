@@ -1,18 +1,9 @@
 body {
   background-image: url(../media/daniele-d-andreti-2.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+  background-position: center;
 }
 
 header {
@@ -25,7 +16,7 @@ div {
   margin-top: -30px;
   margin-left: 475px;
   font-style: italic;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 button {
