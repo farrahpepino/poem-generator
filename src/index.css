@@ -10,6 +10,7 @@ header {
   font-size: 150px;
   color: red;
   margin: 150px 0px 0px 350px;
+  position: flex;
 }
 
 div {
@@ -42,4 +43,31 @@ button:hover {
   border-style: none;
   color: hsla(0, 0%, 20%, 0.4);
   transform: 0.1s;
+}
+
+footer {
+  color: hsla(0, 0%, 20%, 0.4);
+  position: absolute;
+  text-align: start;
+  left: 30px;
+  bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.photo-credit {
+  /* color: hsla(0, 0%, 20%, 0.766); */
+  color: hsla(0, 0%, 100%, 0.5);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+.coder {
+  color: red;
+}
+
+.coder-github {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: bold;
+  font-style: italic;
 }
