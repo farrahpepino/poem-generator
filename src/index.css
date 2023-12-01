@@ -1,5 +1,51 @@
 body {
-  background-image: url(../media/p2.jpg);
+  background-image: url(../media/daniele-d-andreti-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  font-size: 150px;
+  color: red;
+  margin: 350px 0px 0px 350px;
+}
+
+div {
+  margin-top: -30px;
+  margin-left: 500px;
+  font-style: italic;
+  font-size: 30px;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 615px;
+  border-radius: 12px;
+  padding: 10px 45px 13px 45px;
+  background: transparent;
+  font-family: Helvetica;
+  background-color: hsla(0, 0%, 20%, 0.4);
+  border-style: none;
+
+  color: white;
+  font-size: 30px;
+  /* border-color: hsla(0, 0%, 100%, 0.5); */
+}
+
+button:hover {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  border-style: none;
+  color: hsla(0, 0%, 20%, 0.4);
+  transform: 0.1s;
 }
