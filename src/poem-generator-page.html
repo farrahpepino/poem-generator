@@ -3,15 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/index.css" />
-    <script src="src/index.js" async></script>
-    <title>HOME | Amore</title>
+    <title>Amore</title>
+    <link rel="stylesheet" href="../src/poem-generator-page.css" />
   </head>
+
   <body>
     <header>Amore</header>
-    <div>generate verses for laughs and giggles</div>
 
-    <button>→</button>
+    <section>
+      <form id="generate-poem">
+        <input
+          id="word-input"
+          type="search"
+          placeholder="Enter a city"
+          required
+        />
+        <input id="submit-word-input" type="submit" value="SUBMIT" />
+      </form>
+      <div class="verse">
+        <p>Roses are red, violets are blue,</p>
+        <p>Sugar is sweet, and so are you.</p>
+        <p>The moon shines bright in the night sky,</p>
+        <p>As a gentle breeze whispers, passing by.</p>
+      </div>
+    </section>
     <footer>
       Photo by
       <a
