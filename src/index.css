@@ -14,7 +14,7 @@ header {
 }
 
 div {
-    margin-top: -10px;
+  margin-top: -10px;
   margin-left: 475px;
   font-style: italic;
   color: hsla(0, 0%, 10%, 0.8);
@@ -24,7 +24,7 @@ div {
 }
 
 button {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 565px;
   border-radius: 12px;
   padding: 10px 45px 12px 45px;
