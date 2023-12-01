@@ -8,12 +8,21 @@ body {
 }
 
 header {
-  font-size: 150px;
+  font-size: 100px;
   color: red;
   margin: 150px 0px 0px 350px;
   position: flex;
 }
-
+div {
+  margin-top: -10px;
+  margin-bottom: 40px;
+  margin-left: 475px;
+  font-style: italic;
+  color: hsla(0, 0%, 10%, 0.8);
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 form {
   margin-top: 8px;
   text-align: center;
