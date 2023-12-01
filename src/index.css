@@ -17,6 +17,7 @@ div {
   margin-left: 475px;
   font-style: italic;
   font-size: 20px;
+  font-weight: lighter;
 }
 
 button {
@@ -28,7 +29,7 @@ button {
   font-family: Helvetica;
   background-color: hsla(0, 0%, 20%, 0.4);
   border-style: none;
-
+  font-weight: lighter;
   color: white;
   font-size: 30px;
   /* border-color: hsla(0, 0%, 100%, 0.5); */
