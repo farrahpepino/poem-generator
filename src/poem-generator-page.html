@@ -13,17 +13,18 @@
   <body>
     <header>Amore</header>
     <div class="description">for laughs and giggles</div>
-    <section>
+    <section id="main-container" class="main-container">
       <form id="generate-poem">
         <input
-          id="word-input"
+          id="instructions-input"
           type="search"
+          autocomplete="off"
           placeholder="Enter a topic for your poem"
           required
         />
-        <input id="submit-word-input" type="submit" value="SUBMIT" />
+        <input id="submit-input" type="submit" value="SUBMIT" />
       </form>
-      <div id="verse"></div>
+      <div id="verse" class="verse"></div>
     </section>
 
     <footer>
