@@ -7,10 +7,18 @@ body {
 }
 
 header {
-  font-size: 100px;
-  color: red;
   margin: 75px 0px 0px 350px;
   position: flex;
+}
+
+#logo-button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  color: red;
+  background-color: transparent;
+  font-family: "Times New Roman";
 }
 
 div {
@@ -23,7 +31,7 @@ div {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-button {
+#join-button {
   margin-top: 18px;
   margin-left: 565px;
   border-radius: 12px;
@@ -38,7 +46,7 @@ button {
   /* border-color: hsla(0, 0%, 100%, 0.5); */
 }
 
-button:hover {
+#join-button:hover {
   background-color: hsla(0, 0%, 100%, 0.5);
   border-style: none;
   color: hsla(0, 0%, 20%, 0.4);

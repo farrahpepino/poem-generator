@@ -8,11 +8,20 @@ body {
 }
 
 header {
-  font-size: 100px;
-  color: red;
   margin: 75px 0px 0px 350px;
   position: flex;
 }
+
+#logo-button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  color: red;
+  background-color: transparent;
+  font-family: "Times New Roman";
+}
+
 .description {
   margin-top: -10px;
   margin-bottom: 20px;
@@ -76,7 +85,8 @@ section {
   margin-top: 45px;
   margin-bottom: 45px;
   text-align: center;
-  color: hsla(0, 0%, 1%, 0.9);
+  /* color: hsla(0, 0%, 1%, 0.9); */
+  color: hsla(0, 0%, 100%, 0.5);
   font-style: italic;
   border-left: 5px solid red;
 }

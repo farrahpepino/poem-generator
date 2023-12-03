@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+  let logoElement = document.querySelector("#logo-button");
+  logoElement.addEventListener("click", function () {
+    window.location.href = "../index.html";
+  });
+
   function displayPoem(response) {
     console.log("poem generated");
 
