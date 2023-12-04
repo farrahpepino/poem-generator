@@ -163,4 +163,11 @@ footer {
     line-height: 1;
     border-radius: 12.8px;
   }
+
+  footer {
+    position: relative;
+    text-align: center;
+    font-weight: lighter;
+    bottom: 10%;
+  }
 }

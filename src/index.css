@@ -106,4 +106,10 @@ footer {
     margin-top: 15%;
     display: grid;
   }
+  footer {
+    position: relative;
+    text-align: center;
+    font-weight: lighter;
+    bottom: 10%;
+  }
 }
