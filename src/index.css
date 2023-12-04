@@ -106,10 +106,12 @@ footer {
     margin-top: 15%;
     display: grid;
   }
+
   footer {
-    position: relative;
+    margin: 0;
+    position: inherit;
     text-align: center;
     font-weight: lighter;
-    bottom: 10%;
+    margin-top: 135%;
   }
 }
