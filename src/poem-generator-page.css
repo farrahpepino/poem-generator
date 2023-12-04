@@ -129,6 +129,21 @@ footer {
   font-style: italic;
 }
 
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 @media (max-width: 1400px) {
   section {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
