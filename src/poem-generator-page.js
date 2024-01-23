@@ -1,5 +1,6 @@
 
-  let logoElement = document.querySelector("#logo-button");
+  ldocument.onreadystatechange = function () {
+    if (document.readyState === 'complete') {let logoElement = document.querySelector("#logo-button");
   logoElement.addEventListener("click", function () {
     window.location.href = "../index.html";
   });
@@ -33,3 +34,4 @@
   let poemFormElement = document.querySelector("#generate-poem");
   poemFormElement.addEventListener("submit", generatePoem);
 
+    }};
