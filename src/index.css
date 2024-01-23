@@ -1,0 +1,117 @@
+body {
+    background-image: url(../media/daniele-d-andreti-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    margin: 75px 0px 0px 350px;
+    position: flex;
+  }
+  
+  #logo-button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    color: red;
+    background-color: transparent;
+    font-family: "Times New Roman";
+  }
+  
+  div {
+    margin-top: -10px;
+    margin-left: 475px;
+    font-style: italic;
+    color: hsla(0, 0%, 10%, 0.8);
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  #join-button {
+    margin-top: 18px;
+    margin-left: 565px;
+    border-radius: 12px;
+    padding: 10px 45px 12px 45px;
+    background: transparent;
+    font-family: Helvetica;
+    background-color: hsla(0, 0%, 20%, 0.4);
+    border-style: none;
+    font-weight: lighter;
+    color: white;
+    font-size: 30px;
+    /* border-color: hsla(0, 0%, 100%, 0.5); */
+  }
+  
+  #join-button:hover {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-style: none;
+    color: hsla(0, 0%, 20%, 0.4);
+    transform: 0.1s;
+  }
+  
+  footer {
+    color: hsla(0, 0%, 1%, 0.9);
+    position: absolute;
+    text-align: start;
+    right: 30px;
+    bottom: 30px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 10px;
+  }
+  .photo-credit {
+    /* color: hsla(0, 0%, 20%, 0.766); */
+    color: hsla(0, 0%, 100%, 0.5);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .coder {
+    color: red;
+  }
+  
+  .coder-github {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @media (max-width: 1400px) {
+    section {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      margin: 3%;
+      padding: 6% 3%;
+      border-radius: 24px;
+    }
+  
+    header {
+      margin: 0px;
+      text-align: center;
+    }
+    .description {
+      margin: 0px;
+      text-align: center;
+    }
+  
+    #join-button {
+      margin: auto;
+      margin-top: 15%;
+      display: grid;
+    }
+  
+    footer {
+      margin: 0;
+      position: inherit;
+      text-align: center;
+      font-weight: lighter;
+      margin-top: 85%;
+    }
+  }
