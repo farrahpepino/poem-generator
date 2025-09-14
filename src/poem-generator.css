@@ -1,5 +1,5 @@
 body {
-  background-image: url(../assets/daniele-d-andreti-3.jpg);
+  background-image: url(../assets/daniele-d-andreti.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,7 +95,6 @@ section {
   margin-top: 45px;
   margin-bottom: 45px;
   text-align: center;
-  /* color: hsla(0, 0%, 1%, 0.9); */
   color: hsla(0, 0%, 100%, 0.5);
   font-style: italic;
   border-left: 5px solid red;
@@ -113,7 +112,6 @@ footer {
   font-size: 10px;
 }
 .photo-credit {
-  /* color: hsla(0, 0%, 20%, 0.766); */
   color: hsla(0, 0%, 100%, 0.5);
   text-decoration: none;
   font-weight: bold;
