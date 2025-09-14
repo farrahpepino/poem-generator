@@ -1,5 +1,5 @@
 body {
-  background-image: url(../media/daniele-d-andreti-3.jpg);
+  background-image: url(../assets/daniele-d-andreti-3.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,6 +56,7 @@ form {
   padding: 20px;
   width: 50%;
   border-radius: 12.8px;
+  outline: none;
 }
 #instructions-input::placeholder {
   color: hsla(0, 0%, 10%, 0.7);
