@@ -1,7 +1,7 @@
 document.onreadystatechange = function () {
     if (document.readyState === 'complete') {let joinElement = document.querySelector("#join-button");
 joinElement.addEventListener("click", function () {
-  window.location.href = "../src/pages/poem-generator.html";
+  window.location.href = "../src/App.html";
   
 });
 
